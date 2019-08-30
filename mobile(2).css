@@ -1,0 +1,192 @@
+@media only screen and (min-width: 240px) and (max-width: 1023px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    @viewport {
+        width: device-width;
+        zoom: 1.0;
+    }
+    #body {
+        background-color: rgb(238, 238, 238);
+    }
+    a {
+        text-decoration: none!important;
+    }
+    .search-bar {
+        padding-left: 400px;
+    }
+    /* #toprow {
+        background-color: rgb(255, 255, 255);
+    } */
+    .boxed {
+        border: 1px solid rgb(59, 57, 57);
+        border-radius: 15px;
+        /* margin: 0.05px; */
+        background-color: white;
+    }
+    .boxed2 {
+        border: 1px solid rgb(59, 57, 57);
+        /* margin: 0.05px; */
+        background-color: white;
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+    }
+    #sidebar-one {
+        display: none;
+        position: relative;
+        background-color: white;
+        margin-left: 1rem;
+        border-radius: 15px;
+    }
+    #sidebar-two {
+        display: none;
+        position: relative;
+        background-color: white;
+        margin-right: 1rem;
+        border-radius: 15px;
+    }
+    #main {
+        margin-top: 80px;
+    }
+    #footer-index {
+        position: relative;
+        /* min-height: 50vh; */
+        background: #343a40;
+        color: white;
+        bottom: 0;
+        height: 1.6em;
+        width: 100%;
+        margin-top: 2rem;
+    }
+    #footer-signup {
+        position: absolute;
+        /* min-height: 50vh; */
+        background: #343a40;
+        color: white;
+        bottom: 0;
+        height: 1.6em;
+        width: 100%;
+        margin-top: 2rem;
+    }
+    #footer-login {
+        position: absolute;
+        /* min-height: 50vh; */
+        background: #343a40;
+        color: white;
+        bottom: 0;
+        height: 1.6em;
+        width: 100%;
+        margin-top: 2rem;
+    }
+    h1 {
+        text-align: center;
+        padding-top: 1rem;
+        /* padding-bottom: 10px; */
+    }
+    .carousel {
+        position: absolute;
+        padding: 0px;
+        margin: 0px;
+    }
+    /* Navigation */
+    #nav-bar {
+        position: fixed;
+        top: 0;
+        z-index: 2;
+    }
+    .navbar-nav li {
+        padding: 0 10px;
+    }
+    .navbar-nav li a {
+        float: right;
+        text-align: left;
+    }
+    span {
+        color: red;
+        font-weight: bold;
+    }
+    .span2 {
+        color: rgb(235, 235, 54);
+    }
+    #nav-bar ul li a {
+        color: white;
+    }
+    #nav-bar ul li a:hover {
+        color: red!important;
+    }
+    #headerSlider {
+        width: 100%;
+        height: 50%;
+    }
+    .carousel-caption {
+        top: 45%;
+        transform: translateY(-50%);
+        bottom: initial!important;
+    }
+    .carousel-caption h5 {
+        color: #fff;
+        font-size: 42px;
+        text-shadow: 1px 1px 1px #111;
+    }
+    /* How it works */
+    .services {
+        margin-top: 0px;
+    }
+    .icon {
+        margin: 20px auto;
+        font-size: 40px;
+        padding: 20px;
+        height: 80px;
+        width: 80px;
+        border: 1px solid rgb(59, 57, 57);
+        border-radius: 50%;
+    }
+    .how-it-works {
+        background-color: grey;
+        position: static;
+        width: 100%;
+        height: 29rem;
+        margin-top: 1rem;
+    }
+    .h-i-w-boxes {
+        padding-top: 1rem;
+    }
+    /* Menu */
+    .image {
+        width: 100%;
+    }
+    /* Sign up */
+    .form-signin {
+        width: 100%;
+        max-width: 330px;
+        padding: 15px;
+        margin: 100px auto;
+    }
+    .form-signin .form-control {
+        position: relative;
+        box-sizing: border-box;
+        height: auto;
+        padding: 10px;
+        font-size: 16px;
+    }
+    .form-signin input[type="email"] {
+        margin-bottom: -1px;
+        border-bottom-right-radius: 0;
+        border-bottom-left-radius: 0;
+    }
+    .form-signin input[type="password"] {
+        margin-bottom: 10px;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+    }
+    .h3 {
+        text-align: center
+    }
+    #pword {
+        text-decoration: none;
+    }
+    /* #somethingorother {
+        width: 320px;
+    } */
+}
